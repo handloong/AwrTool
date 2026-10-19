@@ -1,6 +1,6 @@
 ---
-name: oracle-awr
-description: 通用 Oracle AWR 性能诊断与优化建议流程。生成指定时间窗口的实例级与 RAC 全局 AWR 报告，按"取证式"方法把每条结论绑定到具体查询与数字，先判五类瓶颈（CPU/IO/争用/内存/Redo），再下钻到 Top SQL、执行计划、段与 ASH，最后输出带优先级、预期收益、验证 SQL 与回退方案的整改意见。适用于任意 Oracle 11g~23ai 实例（含 RAC、CDB）。当用户提到 AWR、awr report、statspack、Oracle 性能慢、Top SQL、等待事件、全表扫描、索引、硬解析、绑定变量、RAC 负载不均，或要求"拉一份最近 N 小时的 AWR / 分析这份 AWR / 给优化建议"时使用。
+name: oracle-awr-ict
+description: 通用 Oracle AWR 性能诊断与优化建议流程,需配合https://github.com/handloong/AwrTool#mcp使用,生成指定时间窗口的实例级与 RAC 全局 AWR 报告，按"取证式"方法把每条结论绑定到具体查询与数字，先判五类瓶颈（CPU/IO/争用/内存/Redo），再下钻到 Top SQL、执行计划、段与 ASH，最后输出带优先级、预期收益、验证 SQL 与回退方案的整改意见。适用于任意 Oracle 11g~23ai 实例（含 RAC、CDB）。当用户提到 AWR、awr report、statspack、Oracle 性能慢、Top SQL、等待事件、全表扫描、索引、硬解析、绑定变量、RAC 负载不均，或要求"拉一份最近 N 小时的 AWR / 分析这份 AWR / 给优化建议"时使用。
 agent_created: true
 ---
 

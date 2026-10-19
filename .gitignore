@@ -1,0 +1,24 @@
+# 构建产物
+bin/
+obj/
+publish/
+artifacts/
+
+# .NET
+*.user
+*.suo
+.vs/
+*.nupkg
+
+# 本地产物 / 报告输出
+out/
+*.awr.html
+*.awr.txt
+
+# 本地会话记忆（不进仓库）
+.workbuddy/
+
+# 凭据绝不能进仓库
+.awrtool/
+*.secret
+.env
